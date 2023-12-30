@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"xml test microfocus uft.xml"</Name>
+    <Description>XML Checkpoint failed.</Description>
+    <StartTime>2023-12-29 10:41:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>XMLFile</Type>
+            <Name><![CDATA[xml test microfocus uft.xml]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[XML Checkpoint failed.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[filename]]></Name>
+            <Value><![CDATA[D:\xml test microfocus uft.xml]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>XML CheckPoint</Type>
+        <FileComparisonLink>Resources\CheckPoints\9b09a51a-76e9-4a3d-ac7e-8d555acc23ed</FileComparisonLink>
+      </Checkpoint>
+      <IconKey>5da4644c59874670bbd954be6d2ca1f2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>xml test microfocus uft.xml</Name>
+    <Description>XMLFile</Description>
+    <StartTime>2023-12-29 10:41:00</StartTime>
+    <Duration>0</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>XMLFile</Type>
+            <Name><![CDATA[xml test microfocus uft.xml]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[XMLFile]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[filename]]></Name>
+            <Value><![CDATA[D:\xml test microfocus uft.xml]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5da4644c59874670bbd954be6d2ca1f2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2023-12-29 10:41:00</StartTime>
+    <Duration>0</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>3039d3eaf48f4363b520352aef9ba731</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2023-12-29 10:41:00</StartTime>
+    <Duration>0</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>c2b9eeb148d24eec8b18f3965fdbf95c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>xml checkpoint</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2023-12-29 10:40:57</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>55b8351e9c6444388d560a082cb09432</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>Sai</User>
+      <CpuInfo>Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>7051</TotalMemory>
+      <HostName>DESKTOP-3KOP925</HostName>
+      <OSInfo>Windows 10 22H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2023-12-29 10:40:57</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
